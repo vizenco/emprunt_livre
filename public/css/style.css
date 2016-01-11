@@ -1,0 +1,98 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: url("fond.jpg") ;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    //background-size: cover; /* version standardisée */
+}
+
+.zf-green {
+    color: #68b604;
+}
+
+.btn-success {
+  background-color: #57a900;
+  background-image: -moz-linear-gradient(top, #70d900, #57a900);
+  background-image: -ms-linear-gradient(top, #70d900, #57a900);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
+  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+  background-image: -o-linear-gradient(top, #70d900, #57a900);
+  background-image: linear-gradient(top, #70d900, #57a900);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #57a900;
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #57a900;
+}
+
+div.container a.brand {
+    background:no-repeat scroll 0 10px transparent;
+   
+    margin-left: 0;
+    padding: 8px 20px 12px 40px;
+}
+body.container{
+    
+    opacity: 1.0;
+    
+} 
+.navbar{
+    opacity: 0.5;
+    }
+    p{
+        color: black;
+    }
+    a{
+        color:white ;
+    }
+    .navbar navbar-inverse navbar-fixed-top{
+        content: "Vincent's";
+        opacity: 0.5;
+    }
+	nav.navbar.navbar-inverse.navbar-fixed-top.container.collapse.navbar-collapse{
+		text-align: right;
+		color: white;
+	}
+    label{
+        color: white;
+        opacity: 1.0;
+    }
+    
+    h1{
+        color: white;
+        opacity: 1.0
+    }
+	
+	
+    hr{
+        opacity : 0;
+    }
+    tr{
+        color: white;
+    }
+    
+    tr td{
+        color: white;
+    }
+    td a{
+        color: white;
+    }
+    .p a{
+        color: white;
+        
+    }
+    .container p{
+        color: white;
+    }
+    hr{
+        color: white;
+        text-align: float left;
+    }
