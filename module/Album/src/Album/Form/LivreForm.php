@@ -21,17 +21,17 @@ class AlbumForm extends Form {
             'type' => 'Hidden',
         ));
         $this->add(array(
-            'name' => 'title',
+            'name' => 'titre',
             'type' => 'Text',
             'options' => array(
-                'label' => 'Title',
+                'label' => 'Titre',
             ),
         ));
         $this->add(array(
-            'name' => 'artist',
+            'name' => 'auteur',
             'type' => 'Text',
             'options' => array(
-                'label' => 'Artist',
+                'label' => 'Auteur',
             ),
         ));
         $this->add(array(
